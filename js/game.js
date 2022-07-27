@@ -63,6 +63,8 @@ gameScene.create = function() {
   // player is alive
   this.isPlayerAlive = true;
 
+  // reset camera effects
+  this.cameras.main.resetFX();
 };
 
 // executed on every frame (60 times per second)
